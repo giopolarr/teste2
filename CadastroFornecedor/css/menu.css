@@ -1,0 +1,33 @@
+.page{
+     position: relative;
+     display:flex;
+     flex-direction: column;
+}
+.slidebar{
+
+     background-color: #282A35;
+     display: flex;
+     padding: 10px;
+
+}
+.logo{
+     width: 57px;
+     height: 57px;
+}
+a{
+     color: white;
+     text-decoration: none;
+}
+@media (min-width: 640px) {
+     .page{
+          flex-direction: row;
+     }
+     .slidebar{
+          height: 100vh;
+          width: auto;
+          position: sticky;
+          top: 0;
+          display: block;
+     }
+     
+}
